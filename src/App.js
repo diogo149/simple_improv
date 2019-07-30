@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Emotions from './constants/Emotions';
 import CanIGetA from './constants/CanIGetA';
+import CustomChoices from './constants/CustomChoices';
 
 
 function randomItem(items) {
@@ -34,7 +35,10 @@ const generators = {
   "Emotion": Emotions.combined,
   "Location": CanIGetA.locations,
   "Relationship": CanIGetA.relationships,
-  "Word": CanIGetA.words
+  "Word": CanIGetA.words,
+  "Prop": CustomChoices.props,
+  "Secret Want": CustomChoices.secretWants,
+  "First Names": CustomChoices.firstNames
 }
 
 class GeneratorDisplay extends React.Component {
