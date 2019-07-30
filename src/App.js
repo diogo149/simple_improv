@@ -30,20 +30,45 @@ function randomItem(items) {
 //   );
 // }
 
+const generators = {
+  "Emotion": Emotions.combined,
+  "Location": CanIGetA.locations,
+  "Relationship": CanIGetA.relationships,
+  "Word": CanIGetA.words
+}
+
+class GeneratorDisplay extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: randomItem(props.choices),
+    };
+  }
+
+  refresh() {
+    this.setState({value: randomItem(this.props.choices)})
+  }
+
+  render() {
+    return (
+      <div
+        className="generator-display"
+        onClick={() => this.refresh()}
+      >
+        <div className="generator-name">{this.props.name}:</div>
+	<div className="generator-value">{this.state.value}</div>
+      </div>
+    );
+  }
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-	Emotion: {randomItem(Emotions.combined)}
-	<br/>
-	<br/>
-	Location: {randomItem(CanIGetA.locations)}
-	<br/>
-	<br/>
-	Relationship: {randomItem(CanIGetA.relationships)}
-	<br/>
-	<br/>
-	Word: {randomItem(CanIGetA.words)}
+	{Object.entries(generators).map(([name, choices]) => {
+	    return <GeneratorDisplay name={name} choices={choices} />
+	})}
       </header>
     </div>
   );

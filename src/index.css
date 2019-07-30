@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.generator-display {
+  border-radius: 5px;
+  font-size: 1.2em;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  padding-bottom: 20px;
+}
+
+.generator-name {
+  /* grid-column-start: 1; */
+  /* grid-column-end: 2; */
+  padding: 10px;
+}
+
+.generator-value {
+  /* grid-column-start: 2; */
+  /* grid-column-start: 3; */
+  padding: 10px;
+}
