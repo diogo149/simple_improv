@@ -2,7 +2,7 @@
 
 const emotions = {
   "love": {
-    "peaceful": ["satisfied, tranquil"],
+    "peaceful": ["satisfied", "tranquil"],
     "tender": ["compassionate", "caring"],
     "longing": ["affectionate", "sentimental"],
     "romantic": ["enamored", "attractive"],
@@ -55,9 +55,12 @@ const level2 = Object.values(emotions).flatMap(x => Object.keys(x));
 
 const level3 = Object.values(emotions).flatMap(x => Object.values(x).flatMap(x => x));
 
+const combined = Object.entries(emotions).flatMap(([e1, x]) => Object.entries(x).flatMap(([e2, x]) => x.map(e3 => e1 + " | " + e2 + " | " + e3)));
+
 export default {
   emotions,
   level1,
   level2,
-  level3
+  level3,
+  combined
 };
