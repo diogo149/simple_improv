@@ -45,7 +45,7 @@ const generators = {
   "Relationship": Relationships.relationships,
   "First Name": Names.firstNames,
   "Last Name": Names.lastNames,
-  "Prop / Possession": CustomChoices.props,
+  // "Prop / Possession": CustomChoices.props,
   "Secret Want": CustomChoices.secretWants,
   "Stock Character": Archetypes.wikiStockCharacters,
   "Jung Archetype": Archetypes.jungArchetypes,
