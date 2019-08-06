@@ -3,3 +3,8 @@
 `npm start`
 
 `npm run deploy`
+* TODOs
+- refresh all button. random button. swipe right to full screen mode. swipe left to freeze. have fixed height.
+- timer with bell: random log scale time
+- can I use text to speech to read out things? eg. emotions, numbers
+- make font size adjust automatically

@@ -1,8 +1,14 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Emotions from './constants/Emotions';
+import Archetypes from './constants/Archetypes';
+import Adjectives from './constants/Adjectives';
 import CanIGetA from './constants/CanIGetA';
+import Emotions from './constants/Emotions';
+import Locations from "./constants/Locations"
+import Names from "./constants/Names"
+import Relationships from "./constants/Relationships"
+import Words from "./constants/Words"
 import CustomChoices from './constants/CustomChoices';
 
 
@@ -32,13 +38,17 @@ function randomItem(items) {
 // }
 
 const generators = {
+  "Word": Words.words,
   "Emotion": Emotions.combined,
-  "Location": CanIGetA.locations,
-  "Relationship": CanIGetA.relationships,
-  "Word": CanIGetA.words,
-  "Prop": CustomChoices.props,
+  "Adjective": Adjectives.adjectives,
+  "Location": Locations.locations,
+  "Relationship": Relationships.relationships,
+  "First Name": Names.firstNames,
+  "Last Name": Names.lastNames,
+  "Prop / Possession": CustomChoices.props,
   "Secret Want": CustomChoices.secretWants,
-  "First Names": CustomChoices.firstNames
+  "Stock Character": Archetypes.wikiStockCharacters,
+  "Jung Archetype": Archetypes.jungArchetypes,
 }
 
 class GeneratorDisplay extends React.Component {
@@ -71,7 +81,7 @@ function App() {
     <div className="App">
       <header className="App-header">
 	{Object.entries(generators).map(([name, choices]) => {
-	    return <GeneratorDisplay name={name} choices={choices} />
+	  return <GeneratorDisplay name={name} key={name} choices={choices} />
 	})}
       </header>
     </div>

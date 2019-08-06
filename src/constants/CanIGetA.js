@@ -282,8 +282,10 @@ const relationships = [
   "Student/Rich Relative",
   "Stunt Driver/Director",
   "Forger/Crime Boss",
-  "Castaway/Coconut", "AI/Space Pilot",
-  "Joker/Sucker", "Physicist/Mathematician"
+  "Castaway/Coconut",
+  "AI/Space Pilot",
+  "Joker/Sucker",
+  "Physicist/Mathematician"
 ];
 const words = [
   "Commerce",

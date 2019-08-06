@@ -1,51 +1,51 @@
 // https://www.thejuntoinstitute.com/blog-posts/the-junto-emotion-wheel-why-and-how-we-use-it
 
 const emotions = {
-  "love": {
-    "peaceful": ["satisfied", "tranquil"],
-    "tender": ["compassionate", "caring"],
-    "longing": ["affectionate", "sentimental"],
-    "romantic": ["enamored", "attractive"],
-    "desirous": ["infatuated", "passionate"]
+  "Love": {
+    "Peaceful": ["Satisfied", "Tranquil"],
+    "Tender": ["Compassionate", "Caring"],
+    "Longing": ["Affectionate", "Sentimental"],
+    "Romantic": ["Enamored", "Attractive"],
+    "Desirous": ["Infatuated", "Passionate"]
   },
-  "joy": {
-    "enthralled": ["rapturous", "enchanted"],
-    "elated": ["jubilant", "euphoric"],
-    "enthusiastic": ["zealous", "excited"],
-    "optimistic": ["hopeful", "eager"],
-    "proud": ["illustrious", "triumphant"],
-    "cheerful": ["playful", "jovial"],
-    "happy": ["delighted", "amused"],
-    "content": ["pleased", "thankful"]
+  "Joy": {
+    "Enthralled": ["Rapturous", "Enchanted"],
+    "Elated": ["Jubilant", "Euphoric"],
+    "Enthusiastic": ["Zealous", "Excited"],
+    "Optimistic": ["Hopeful", "Eager"],
+    "Proud": ["Illustrious", "Triumphant"],
+    "Cheerful": ["Playful", "Jovial"],
+    "Happy": ["Delighted", "Amused"],
+    "Content": ["Pleased", "Thankful"]
   },
-  "surprise": {
-    "moved": ["touched", "stimulated"],
-    "overcome": ["astounded", "speechless"],
-    "amazed": ["awe-struck", "astonished"],
-    "confused": ["disillusioned", "perplexed"],
-    "stunned": ["shocked", "dismayed"]
+  "Surprise": {
+    "Moved": ["Touched", "Stimulated"],
+    "Overcome": ["Astounded", "Speechless"],
+    "Amazed": ["Awe-Struck", "Astonished"],
+    "Confused": ["Disillusioned", "Perplexed"],
+    "Stunned": ["Shocked", "Dismayed"]
   },
-  "sadness": {
-    "hopeless": ["anguised", "powerless"],
-    "neglected": ["isolated", "lonely"],
-    "shameful": ["regretful", "guilty"],
-    "disappointed": ["dismayed", "displeased"],
-    "melancholic": ["depressed", "sorrowful"],
-    "distressed": ["agonized", "hurt"]
+  "Sadness": {
+    "Hopeless": ["Anguised", "Powerless"],
+    "Neglected": ["Isolated", "Lonely"],
+    "Shameful": ["Regretful", "Guilty"],
+    "Disappointed": ["Dismayed", "Displeased"],
+    "Melancholic": ["Depressed", "Sorrowful"],
+    "Distressed": ["Agonized", "Hurt"]
   },
-  "anger": {
-    "disgusted": ["contemptuous", "revolted"],
-    "envious": ["resentful", "jealous"],
-    "irritable": ["annoyed", "aggravated"],
-    "exasperated": ["agitated", "frustrated"],
-    "enraged": ["hateful", "hostile"]
+  "Anger": {
+    "Disgusted": ["Contemptuous", "Revolted"],
+    "Envious": ["Resentful", "Jealous"],
+    "Irritable": ["Annoyed", "Aggravated"],
+    "Exasperated": ["Agitated", "Frustrated"],
+    "Enraged": ["Hateful", "Hostile"]
   },
-  "fear": {
-    "horrified": ["mortified", "dreadful"],
-    "nervous": ["worried", "anxious"],
-    "insecure": ["inferior", "inadequate"],
-    "terrified": ["panic", "hysterical"],
-    "scared": ["helpless", "frightened"]
+  "Fear": {
+    "Horrified": ["Mortified", "Dreadful"],
+    "Nervous": ["Worried", "Anxious"],
+    "Insecure": ["Inferior", "Inadequate"],
+    "Terrified": ["Panic", "Hysterical"],
+    "Scared": ["Helpless", "Frightened"]
   }
 };
 
