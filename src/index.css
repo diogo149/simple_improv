@@ -16,9 +16,14 @@ code {
   border-radius: 5px;
   font-size: 1.2em;
   display: grid;
-  width: 100%;
+  width: 95%;
   grid-template-columns: 50% 50%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10px;
 }
 
 .generator-name {
