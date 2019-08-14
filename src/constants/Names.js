@@ -22,6 +22,7 @@ const firstNames = [
   "Albert",
   "Tanner",
   "Wesley",
+  "Sebastian",
 
   "Alex",
   "Sasha",
@@ -43,7 +44,8 @@ const firstNames = [
 const lastNames = [
   "Rogers",
   "Murphy",
-  "Payton"
+  "Payton",
+  "Anderson",
 ];
 
 */

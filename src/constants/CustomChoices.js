@@ -38,7 +38,9 @@ const secretWants = [
   "Adventure",
   "Safety",
   "Fame",
-  "The Right Answer,"
+  "The Right Answer",
+  "A Massage",
+  "Give A Massage",
 ];
 
 const animals = [
