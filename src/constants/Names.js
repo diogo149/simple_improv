@@ -23,6 +23,8 @@ const firstNames = [
   "Tanner",
   "Wesley",
   "Sebastian",
+  "Winston",
+  "Rex",
 
   "Alex",
   "Sasha",

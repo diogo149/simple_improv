@@ -49,6 +49,7 @@ const generators = {
   "Secret Want": CustomChoices.secretWants,
   "Stock Character": Archetypes.wikiStockCharacters,
   "Jung Archetype": Archetypes.jungArchetypes,
+  "Character Question": CustomChoices.characterQuestions,
 }
 
 class GeneratorDisplay extends React.Component {

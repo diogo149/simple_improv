@@ -65,8 +65,26 @@ const animals = [
   "Frog",
 ];
 
+const characterQuestions = [
+  "What's your name?",
+  "What's in your front right pocket?",
+  "How old are you?",
+  "What colour is your bedroom?",
+  "What do you do for a job?",
+  "What's your deepest secret?",
+  "Where do you live?",
+  "What scares you?",
+  "What animal was your first pet (and what was it called?)",
+  "Who's your closest friend (and how did you meet)?",
+  "Where did you go to school (and did you enjoy it)?",
+  "Where did you last go on holiday (and what was your opinion of it)?",
+  "What's your favourite food?",
+  "What's your favourite song?",
+];
+
 export default {
   props,
   secretWants,
-  animals
+  animals,
+  characterQuestions,
 };
