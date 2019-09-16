@@ -66,6 +66,7 @@ const animals = [
 ];
 
 const characterQuestions = [
+  // liam's questions
   "What's your name?",
   "What's in your front right pocket?",
   "How old are you?",
@@ -80,6 +81,42 @@ const characterQuestions = [
   "Where did you last go on holiday (and what was your opinion of it)?",
   "What's your favourite food?",
   "What's your favourite song?",
+  // proust questionnaire
+  "What is your idea of perfect happiness?",
+  "What is your greatest fear?",
+  "What is the trait you most deplore in yourself?",
+  "What is the trait you most deplore in others?",
+  "Which living person do you most admire?",
+  "What is your greatest extravagance?",
+  "What is your current state of mind?",
+  "What do you consider the most overrated virtue?",
+  "On what occasion do you lie?",
+  "What do you most dislike about your appearance?",
+  "Which living person do you most despise?",
+  "What is the quality you most like in a man?",
+  "What is the quality you most like in a woman?",
+  "Which words or phrases do you most overuse?",
+  "What or who is the greatest love of your life?",
+  "When and where were you happiest?",
+  "Which talent would you most like to have?",
+  "If you could change one thing about yourself, what would it be?",
+  "What do you consider your greatest achievement?",
+  "If you were to die and come back as a person or a thing, what would it be?",
+  "Where would you most like to live?",
+  "What is your most treasured possession?",
+  "What do you regard as the lowest depth of misery?",
+  "What is your favorite occupation?",
+  "What is your most marked characteristic?",
+  "What do you most value in your friends?",
+  "Who are your favorite writers?",
+  "Who is your hero of fiction?",
+  "Which historical figure do you most identify with?",
+  "Who are your heroes in real life?",
+  "What are your favorite names?",
+  "What is it that you most dislike?",
+  "What is your greatest regret?",
+  "How would you like to die?",
+  "What is your motto?",
 ];
 
 export default {
