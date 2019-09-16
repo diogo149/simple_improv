@@ -74,13 +74,14 @@ const characterQuestions = [
   "What do you do for a job?",
   "What's your deepest secret?",
   "Where do you live?",
-  "What scares you?",
+  // "What scares you?",  // duplicate with proust questionnaire
   "What animal was your first pet (and what was it called?)",
   "Who's your closest friend (and how did you meet)?",
   "Where did you go to school (and did you enjoy it)?",
   "Where did you last go on holiday (and what was your opinion of it)?",
   "What's your favourite food?",
   "What's your favourite song?",
+
   // proust questionnaire
   "What is your idea of perfect happiness?",
   "What is your greatest fear?",
