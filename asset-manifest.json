@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/simple_improv/static/css/main.74dc0c3f.chunk.css",
-    "main.js": "/simple_improv/static/js/main.793633b2.chunk.js",
-    "main.js.map": "/simple_improv/static/js/main.793633b2.chunk.js.map",
+    "main.js": "/simple_improv/static/js/main.7be3b2fe.chunk.js",
+    "main.js.map": "/simple_improv/static/js/main.7be3b2fe.chunk.js.map",
     "runtime~main.js": "/simple_improv/static/js/runtime~main.a0680db1.js",
     "runtime~main.js.map": "/simple_improv/static/js/runtime~main.a0680db1.js.map",
     "static/js/2.b62a2150.chunk.js": "/simple_improv/static/js/2.b62a2150.chunk.js",
     "static/js/2.b62a2150.chunk.js.map": "/simple_improv/static/js/2.b62a2150.chunk.js.map",
     "index.html": "/simple_improv/index.html",
-    "precache-manifest.77745fc4134bb17af29f41e2f7cd5413.js": "/simple_improv/precache-manifest.77745fc4134bb17af29f41e2f7cd5413.js",
+    "precache-manifest.db6f0787f01a1b9dd8922295dcb0aa86.js": "/simple_improv/precache-manifest.db6f0787f01a1b9dd8922295dcb0aa86.js",
     "service-worker.js": "/simple_improv/service-worker.js",
     "static/css/main.74dc0c3f.chunk.css.map": "/simple_improv/static/css/main.74dc0c3f.chunk.css.map"
   }
